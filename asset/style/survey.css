@@ -1,24 +1,23 @@
 body {
-  background-image: url(../images/pexels-armin-rimoldi-5553065.jpg);
+  background-image: url("../images/pexels-armin-rimoldi-5553065.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  font-family: Tahoma;
-
+  font-family: Tahoma, sans-serif;
 }
 
 h1 {
   text-align: center;
-  color:aliceblue;
+  color: aliceblue;
   margin-top: 50px;
-  text-shadow: 3px 3px 2px rgba(23, 58, 133, 0.5);
+  text-shadow: 3px 3px 2px rgba(23, 58, 133, 50%);
 }
 
 #description {
   text-align: center;
   font-size: 1.1rem;
   color: aliceblue;
-  background-color: rgba(23, 58, 133, 0.5);
+  background-color: rgba(23, 58, 133, 50%);
   max-width: 500px;
   min-width: 500px;
   height: 25px;
@@ -27,7 +26,7 @@ h1 {
 }
 
 #survey-form {
-  background-color: rgba(23, 58, 133, 0.5);
+  background-color: rgba(23, 58, 133, 50%);
   max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
@@ -54,7 +53,7 @@ fieldset {
 }
 
 hr {
-  width: 20%; 
+  width: 20%;
 }
 
 #dropdown {
@@ -62,7 +61,6 @@ hr {
   height: 30px;
   width: 100%;
   margin: 10px 0;
-  
 }
 
 #dropdown1 {
@@ -70,7 +68,6 @@ hr {
   height: 30px;
   width: 100%;
   margin: 10px 0;
-  
 }
 
 .radio-btn {
@@ -98,10 +95,10 @@ textarea {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
-}   
+}
 
 ::placeholder {
-  font-family:'Segoe UI', Tahoma;
+  font-family: Tahoma, sans-serif;
   font-style: italic;
   padding: 10px;
 }
