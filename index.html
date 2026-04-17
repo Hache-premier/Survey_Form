@@ -3,29 +3,31 @@
     <head>
       <meta charset="UTF-8">
       <title> survey_form</title>
-      <link rel="stylesheet" href="asset/styles/survey.css">
+      <link rel="stylesheet" href="asset/style/survey.css">
     </head>
-    <body>
-      <h1 id="title">freeCodeCamp Survey FORM</h1>
+    <body></body>
+      <h1 id="title"> freeCodeCamp Survey Form </h1>
       <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-      <form id="survey_form">
+      <form id="survey-form">
         <fieldset>
-          <lable for="name">
+          <lable for="name" id="name-lable">
             Enter your name:
             <input id="name" type="text" placeholder="your name:" required/>
           </lable>
 
-          <lable for="Email">
+          <lable for="Email" id="email-lable">
             Enter your Email:
             <input id="email" type="email" placeholder="youe email:" required/>
           </lable>
 
-          <lable for="age">
+          <lable for="age" id="number-lable">
             Enter your Age:
             <input id="age" type="number" min="12" max="100" placeholder="your age:"/>
           </lable>
         </fieldset>
+
+        <hr>
 
         <fieldset>
             <lable>
@@ -41,22 +43,22 @@
            
           <p>Would you recommend freeCodeCamp to a friend?</p>
 
-          <lable>
+          <lable class="radio-btn">
             <input type="radio" name="pref-format"/> Definitely
           </lable>
 
-          <lable>
+          <lable class="radio-btn">
             <input type="radio" name="pref-format"/> Maybe
           </lable>
 
-          <lable>
+          <lable class="radio-btn">
             <input type="radio" name="pref-format"/> Not sure
           </lable>
 
           <p>What is your favorite feature of freeCodeCamp?</p>
           
           <lable>
-            <select id="dropdown">
+            <select id="dropdown1">
               <option>Select an option</option>
               <option>Challenges</option>
               <option>Projects</option>
@@ -67,20 +69,42 @@
 
           <p>What would you like to see improved? (check all that apply)</p>
 
-          <lable>
-            <input type="checkbox" name="prefer"/> Front-end Projects
-            <input type="checkbox" name="prefer"/> Back-end Projects
-            <input type="checkbox" name="prefer"/> Data Visualization
-            <input type="checkbox" name="prefer"/> Challenges
-            <input type="checkbox" name="prefer"/> Open Source Community
-            <input type="checkbox" name="prefer"/> Gitter help rooms
-            <input type="checkbox" name="prefer"/> Videos
-            <input type="checkbox" name="prefer"/> City Meetups
-            <input type="checkbox" name="prefer"/> Wiki
-            <input type="checkbox" name="prefer"/> Forum
-            <input type="checkbox" name="prefer"/> Additional Courses
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> Front-end Projects
+          </lable>
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> Back-end Projects
+          </lable>
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> Data Visualization
+          </lable> 
+          <lable class="style-btn"> 
+            <input type="checkbox" value="choose"/> Challenges
+          </lable>
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> Open Source Community
+          </lable>
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> Gitter help rooms
+          </lable>
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> Videos
+          </lable>
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> City Meetups
+          </lable>
+          <lable class="style-btn">
+            <input type="checkbox" value="choose"/> Wiki
+          </lable>
+          <lable class="style-btn">  
+            <input type="checkbox" value="choose"/> Forum
+          </lable>
+          <lable class="style-btn">  
+            <input type="checkbox" value="choose"/> Additional Courses
           </lable>
         </fieldset>
+
+        <hr>
 
         <fieldset>
           <lable for="comments">
