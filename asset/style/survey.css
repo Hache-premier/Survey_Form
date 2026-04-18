@@ -10,14 +10,14 @@ h1 {
   text-align: center;
   color: aliceblue;
   margin-top: 50px;
-  text-shadow: 3px 3px 2px rgba(23 58 133 50%);
+  text-shadow: 3px 3px 2px #0000ff50;
 }
 
 #description {
   text-align: center;
   font-size: 1.1rem;
   color: aliceblue;
-  background-color: rgba(23 58 133 50%);
+  background-color: #0000ff50;
   max-width: 500px;
   min-width: 500px;
   height: 25px;
@@ -26,7 +26,7 @@ h1 {
 }
 
 #survey-form {
-  background-color: rgba(23 58 133 50%);
+  background-color: #0000ff50;
   max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
