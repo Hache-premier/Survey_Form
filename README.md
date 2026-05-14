@@ -51,10 +51,7 @@ Many beginner web developers struggle to practice real-world form design and res
 (Add screenshots here)
 
 Example:
-
-```html
-<img width="1920" height="1080" alt="Screenshot from 2026-04-17 04-01-24" src="https://github.com/user-attachments/assets/c9611513-dacd-43a3-b19a-6e9066089eeb" />
-```
+<img width="4000" height="6000" alt="pexels-armin-rimoldi-5553065" src="https://github.com/user-attachments/assets/a83df4df-bf46-4f49-b496-66fb99dd1e02" />
 
 ---
 
